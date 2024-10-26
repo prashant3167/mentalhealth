@@ -1,0 +1,3 @@
+processed_file: "/opt/dagster/dagster_home/processed_data.csv"
+target: "Satisfaction_with_Remote_Work"
+index_col: "Employee_ID"

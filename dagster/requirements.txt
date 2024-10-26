@@ -1,0 +1,8 @@
+pandas
+requests
+pymongo
+scikit-learn
+pyarrow
+dagster-webserver
+dagster-aws
+xgboost

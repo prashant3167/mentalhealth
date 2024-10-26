@@ -1,0 +1,55 @@
+*__init__.py*
+cpython
+__pycache__/*
+
+*.lock
+
+*cpython*
+
+
+
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# dependencies
+/node_modules
+/.pnp
+.pnp.js
+
+# testing
+/coverage
+
+# production
+/build
+
+# misc
+.DS_Store
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+package-lock.json
+
+*.csv
+
+*node_modules*
+
+.idea/
+.vscode/
+*pycache*/
+f.py
+medicalhealthbackend/mail.py
+medicalhealthbackend/auth.py
+medicalhealthbackend/old_req.txt
+eda/eda.ipynb
+wandb
+ray_results
+persistent_db/*
+pacific31-xsor-capital
+ray-docker-compose
+persistent_db
+persistent_dagster
+persistent_logs

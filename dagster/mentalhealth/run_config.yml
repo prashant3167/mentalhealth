@@ -1,0 +1,10 @@
+# ops:
+#   pull_data_from_mongo:
+#     config:
+#       company: "CompanyA"  # Replace with your company name as needed
+
+resources:
+  mongo:
+    config:
+      uri: "mongodb+srv://prashant:Abc123@cluster0.jcaic.mongodb.net/?retryWrites=true&w=majority"  # Your MongoDB URI
+      database: "medicalhealth"  # Your database name

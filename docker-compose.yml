@@ -1,0 +1,54 @@
+services:
+  dagster:
+    build: dagster
+    # command: dagster-daemon run
+    ports:
+      - "3000:3000"
+    environment:
+      - DB_PATH=${DB_PATH}
+      - MONGO_URL=${MONGO_URL}
+      - MONGO_DATABASE=${MONGO_DATABASE}
+      - SQLITE_STORAGE_BASE_DIR=/opt/dagster/sqlite/
+    volumes:
+      - ./persistent_db:${DB_PATH}
+      - ./resources/:/opt/dagster/app/model_resources/
+      - ./persistent_dagster/:/opt/dagster/sqlite/
+  frontend:
+    container_name: medical_health_frontend
+    build:
+      context: medicalhealthform
+      dockerfile: Dockerfile
+    ports:
+      - 80:80
+    environment:
+      NODE_ENV: production
+      REACT_APP_API_URL: http://backend:8000
+    depends_on: 
+      - backend
+  backend:
+    container_name: medical_health_backend
+    build:
+      context: medicalhealthbackend
+      dockerfile: Dockerfile
+    ports:
+      - 8000:8000
+    environment:
+      ENV: production
+      MONGODB_URL: ${MONGO_URL}
+      BASIC_AUTH: ${BASIC_AUTH}
+  metabase:
+    container_name: metabase
+    # platform: linux/arm64
+    image: pacific31/duck_metabase:latest
+    ports:
+      - 3001:3000
+    volumes:
+      - ./persistent_db:${DB_PATH}
+      - ./persistent_logs:/persistent_logs
+    environment:
+      - MB_DB_FILE=/persistent_logs/metabase.db
+      - MB_SETUP_ADMIN_EMAIL=fake-admin@example.com
+      - MB_SETUP_ADMIN_PASSWORD=fakepassword
+      - MB_ANON_ACCESS_ENABLED=true
+      - MB_EMBEDS_ANON_ACCESS_TOKENS=true
+    

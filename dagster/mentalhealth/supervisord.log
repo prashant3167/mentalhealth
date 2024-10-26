@@ -1,0 +1,576 @@
+2024-10-06 18:56:27,803 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2024-10-06 18:56:27,806 INFO supervisord started with pid 1
+2024-10-06 18:56:28,818 INFO spawned: 'dagster-daemon' with pid 7
+2024-10-06 18:56:28,822 INFO spawned: 'dagster-webserver' with pid 8
+2024-10-06 18:56:29,824 INFO success: dagster-daemon entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-10-06 18:56:29,824 INFO success: dagster-webserver entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-10-06 18:56:30,265 WARN exited: dagster-daemon (exit status 2; not expected)
+2024-10-06 18:56:30,488 INFO spawned: 'dagster-daemon' with pid 11
+2024-10-06 18:56:30,489 WARN exited: dagster-webserver (exit status 2; not expected)
+2024-10-06 18:56:30,491 INFO spawned: 'dagster-webserver' with pid 12
+2024-10-06 18:56:31,493 INFO success: dagster-daemon entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-10-06 18:56:31,494 INFO success: dagster-webserver entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-10-06 18:56:31,811 WARN exited: dagster-daemon (exit status 2; not expected)
+2024-10-06 18:56:31,942 INFO spawned: 'dagster-daemon' with pid 15
+2024-10-06 18:56:32,240 WARN exited: dagster-webserver (exit status 2; not expected)
+2024-10-06 18:56:32,934 INFO spawned: 'dagster-webserver' with pid 17
+2024-10-06 18:56:33,133 INFO success: dagster-daemon entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-10-06 18:56:33,133 WARN exited: dagster-daemon (exit status 2; not expected)
+2024-10-06 18:56:34,032 INFO spawned: 'dagster-daemon' with pid 19
+2024-10-06 18:56:34,033 INFO success: dagster-webserver entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-10-06 18:56:34,296 WARN exited: dagster-webserver (exit status 2; not expected)
+2024-10-06 18:56:34,966 INFO spawned: 'dagster-webserver' with pid 21
+2024-10-06 18:56:35,175 INFO success: dagster-daemon entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-10-06 18:56:35,176 WARN exited: dagster-daemon (exit status 2; not expected)
+2024-10-06 18:56:36,180 INFO spawned: 'dagster-daemon' with pid 23
+2024-10-06 18:56:36,181 INFO success: dagster-webserver entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-10-06 18:56:36,532 WARN exited: dagster-webserver (exit status 2; not expected)
+2024-10-06 18:56:37,268 INFO success: dagster-daemon entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-10-06 18:56:37,270 INFO spawned: 'dagster-webserver' with pid 25
+2024-10-06 18:56:37,492 WARN exited: dagster-daemon (exit status 2; not expected)
+2024-10-06 18:56:38,501 INFO spawned: 'dagster-daemon' with pid 27
+2024-10-06 18:56:38,502 INFO success: dagster-webserver entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-10-06 18:56:38,945 WARN exited: dagster-webserver (exit status 2; not expected)
+2024-10-06 18:56:39,613 INFO success: dagster-daemon entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-10-06 18:56:39,615 INFO spawned: 'dagster-webserver' with pid 29
+2024-10-06 18:56:39,855 WARN exited: dagster-daemon (exit status 2; not expected)
+2024-10-06 18:56:40,861 INFO spawned: 'dagster-daemon' with pid 31
+2024-10-06 18:56:40,862 INFO success: dagster-webserver entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-10-06 18:56:41,597 WARN exited: dagster-webserver (exit status 2; not expected)
+2024-10-06 18:56:42,204 INFO success: dagster-daemon entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-10-06 18:56:42,207 INFO spawned: 'dagster-webserver' with pid 33
+2024-10-06 18:56:42,444 WARN exited: dagster-daemon (exit status 2; not expected)
+2024-10-06 18:56:43,453 INFO spawned: 'dagster-daemon' with pid 35
+2024-10-06 18:56:43,455 INFO success: dagster-webserver entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-10-06 18:56:44,120 WARN exited: dagster-webserver (exit status 2; not expected)
+2024-10-06 18:56:44,791 INFO success: dagster-daemon entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-10-06 18:56:44,793 INFO spawned: 'dagster-webserver' with pid 37
+2024-10-06 18:56:45,047 WARN exited: dagster-daemon (exit status 2; not expected)
+2024-10-06 18:56:46,056 INFO spawned: 'dagster-daemon' with pid 39
+2024-10-06 18:56:46,057 INFO success: dagster-webserver entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-10-06 18:56:46,619 WARN exited: dagster-webserver (exit status 2; not expected)
+2024-10-06 18:56:47,323 INFO success: dagster-daemon entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-10-06 18:56:47,326 INFO spawned: 'dagster-webserver' with pid 41
+2024-10-06 18:56:47,564 WARN exited: dagster-daemon (exit status 2; not expected)
+2024-10-06 18:56:48,567 INFO spawned: 'dagster-daemon' with pid 43
+2024-10-06 18:56:48,568 INFO success: dagster-webserver entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-10-06 18:56:49,063 WARN exited: dagster-webserver (exit status 2; not expected)
+2024-10-06 18:56:49,639 INFO success: dagster-daemon entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-10-06 18:56:49,641 INFO spawned: 'dagster-webserver' with pid 45
+2024-10-06 18:56:49,863 WARN exited: dagster-daemon (exit status 2; not expected)
+2024-10-06 18:56:50,871 INFO spawned: 'dagster-daemon' with pid 47
+2024-10-06 18:56:50,872 INFO success: dagster-webserver entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-10-06 18:56:51,312 WARN exited: dagster-webserver (exit status 2; not expected)
+2024-10-06 18:56:51,926 INFO success: dagster-daemon entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-10-06 18:56:51,928 INFO spawned: 'dagster-webserver' with pid 49
+2024-10-06 18:56:52,147 WARN exited: dagster-daemon (exit status 2; not expected)
+2024-10-06 18:56:53,156 INFO spawned: 'dagster-daemon' with pid 51
+2024-10-06 18:56:53,157 INFO success: dagster-webserver entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-10-06 18:56:53,596 WARN exited: dagster-webserver (exit status 2; not expected)
+2024-10-06 18:56:54,224 INFO success: dagster-daemon entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-10-06 18:56:54,226 INFO spawned: 'dagster-webserver' with pid 53
+2024-10-06 18:56:54,451 WARN exited: dagster-daemon (exit status 2; not expected)
+2024-10-06 18:56:55,456 INFO spawned: 'dagster-daemon' with pid 55
+2024-10-06 18:56:55,457 INFO success: dagster-webserver entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-10-06 18:56:56,217 WARN exited: dagster-webserver (exit status 2; not expected)
+2024-10-06 18:56:57,227 INFO success: dagster-daemon entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-10-06 18:56:57,251 INFO spawned: 'dagster-webserver' with pid 57
+2024-10-06 18:56:58,270 INFO success: dagster-webserver entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-10-06 18:56:58,895 WARN exited: dagster-daemon (exit status 2; not expected)
+2024-10-06 18:56:59,906 INFO spawned: 'dagster-daemon' with pid 59
+2024-10-06 18:57:01,763 INFO success: dagster-daemon entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-10-06 18:57:03,549 WARN exited: dagster-webserver (exit status 2; not expected)
+2024-10-06 18:57:03,662 INFO spawned: 'dagster-webserver' with pid 61
+2024-10-06 18:57:04,032 WARN exited: dagster-daemon (exit status 2; not expected)
+2024-10-06 18:57:05,045 INFO spawned: 'dagster-daemon' with pid 63
+2024-10-06 18:57:05,050 INFO success: dagster-webserver entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-10-06 18:57:05,055 WARN received SIGTERM indicating exit request
+2024-10-06 18:57:05,059 INFO waiting for dagster-daemon, dagster-webserver to die
+2024-10-06 18:57:05,067 WARN stopped: dagster-webserver (terminated by SIGTERM)
+2024-10-06 18:57:05,071 WARN stopped: dagster-daemon (terminated by SIGTERM)
+2024-10-06 18:57:20,537 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2024-10-06 18:57:20,539 INFO supervisord started with pid 1
+2024-10-06 18:57:21,559 INFO spawned: 'dagster-daemon' with pid 7
+2024-10-06 18:57:21,563 INFO spawned: 'dagster-webserver' with pid 8
+2024-10-06 18:57:22,567 INFO success: dagster-daemon entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-10-06 18:57:22,567 INFO success: dagster-webserver entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-10-06 18:57:23,148 WARN exited: dagster-daemon (exit status 2; not expected)
+2024-10-06 18:57:23,277 INFO spawned: 'dagster-daemon' with pid 11
+2024-10-06 18:57:23,278 WARN exited: dagster-webserver (exit status 2; not expected)
+2024-10-06 18:57:24,280 INFO success: dagster-daemon entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-10-06 18:57:24,284 INFO spawned: 'dagster-webserver' with pid 13
+2024-10-06 18:57:24,557 WARN exited: dagster-daemon (exit status 2; not expected)
+2024-10-06 18:57:25,420 INFO spawned: 'dagster-daemon' with pid 15
+2024-10-06 18:57:25,421 INFO success: dagster-webserver entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-10-06 18:57:25,685 WARN exited: dagster-webserver (exit status 2; not expected)
+2024-10-06 18:57:26,296 INFO spawned: 'dagster-webserver' with pid 17
+2024-10-06 18:57:26,509 INFO success: dagster-daemon entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-10-06 18:57:26,510 WARN exited: dagster-daemon (exit status 2; not expected)
+2024-10-06 18:57:27,518 INFO spawned: 'dagster-daemon' with pid 19
+2024-10-06 18:57:27,519 INFO success: dagster-webserver entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-10-06 18:57:28,000 WARN exited: dagster-webserver (exit status 2; not expected)
+2024-10-06 18:57:28,624 INFO success: dagster-daemon entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-10-06 18:57:28,626 INFO spawned: 'dagster-webserver' with pid 21
+2024-10-06 18:57:28,867 WARN exited: dagster-daemon (exit status 2; not expected)
+2024-10-06 18:57:29,876 INFO spawned: 'dagster-daemon' with pid 23
+2024-10-06 18:57:29,877 INFO success: dagster-webserver entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-10-06 18:57:30,977 INFO success: dagster-daemon entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-10-06 18:57:30,978 WARN exited: dagster-webserver (exit status 2; not expected)
+2024-10-06 18:57:31,451 INFO spawned: 'dagster-webserver' with pid 25
+2024-10-06 18:57:31,732 WARN exited: dagster-daemon (exit status 2; not expected)
+2024-10-06 18:57:32,740 INFO spawned: 'dagster-daemon' with pid 27
+2024-10-06 18:57:32,741 INFO success: dagster-webserver entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-10-06 18:57:33,506 WARN exited: dagster-webserver (exit status 2; not expected)
+2024-10-06 18:57:34,133 INFO success: dagster-daemon entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-10-06 18:57:34,135 INFO spawned: 'dagster-webserver' with pid 29
+2024-10-06 18:57:34,377 WARN exited: dagster-daemon (exit status 2; not expected)
+2024-10-06 18:57:35,385 INFO spawned: 'dagster-daemon' with pid 31
+2024-10-06 18:57:35,385 INFO success: dagster-webserver entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-10-06 18:57:35,993 WARN exited: dagster-webserver (exit status 2; not expected)
+2024-10-06 18:57:36,638 INFO success: dagster-daemon entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-10-06 18:57:36,640 INFO spawned: 'dagster-webserver' with pid 33
+2024-10-06 18:57:36,886 WARN exited: dagster-daemon (exit status 2; not expected)
+2024-10-06 18:57:37,894 INFO spawned: 'dagster-daemon' with pid 35
+2024-10-06 18:57:37,894 INFO success: dagster-webserver entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-10-06 18:57:38,462 WARN exited: dagster-webserver (exit status 2; not expected)
+2024-10-06 18:57:39,179 INFO success: dagster-daemon entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-10-06 18:57:39,181 INFO spawned: 'dagster-webserver' with pid 37
+2024-10-06 18:57:39,419 WARN exited: dagster-daemon (exit status 2; not expected)
+2024-10-06 18:57:40,423 INFO spawned: 'dagster-daemon' with pid 39
+2024-10-06 18:57:40,424 INFO success: dagster-webserver entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-10-06 18:57:41,150 WARN exited: dagster-webserver (exit status 2; not expected)
+2024-10-06 18:57:41,806 INFO success: dagster-daemon entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-10-06 18:57:41,808 INFO spawned: 'dagster-webserver' with pid 48
+2024-10-06 18:57:42,056 WARN exited: dagster-daemon (exit status 2; not expected)
+2024-10-06 18:57:43,059 INFO spawned: 'dagster-daemon' with pid 50
+2024-10-06 18:57:43,059 INFO success: dagster-webserver entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-10-06 18:57:43,677 WARN exited: dagster-webserver (exit status 2; not expected)
+2024-10-06 18:57:44,309 INFO success: dagster-daemon entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-10-06 18:57:44,311 INFO spawned: 'dagster-webserver' with pid 52
+2024-10-06 18:57:44,558 WARN exited: dagster-daemon (exit status 2; not expected)
+2024-10-06 18:57:45,566 INFO spawned: 'dagster-daemon' with pid 54
+2024-10-06 18:57:45,566 INFO success: dagster-webserver entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-10-06 18:57:46,253 WARN exited: dagster-webserver (exit status 2; not expected)
+2024-10-06 18:57:47,211 INFO success: dagster-daemon entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-10-06 18:57:47,214 INFO spawned: 'dagster-webserver' with pid 56
+2024-10-06 18:57:47,514 WARN exited: dagster-daemon (exit status 2; not expected)
+2024-10-06 18:57:48,521 INFO spawned: 'dagster-daemon' with pid 58
+2024-10-06 18:57:48,521 INFO success: dagster-webserver entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-10-06 18:57:49,548 INFO success: dagster-daemon entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-10-06 18:57:49,548 WARN exited: dagster-webserver (exit status 2; not expected)
+2024-10-06 18:57:49,954 INFO spawned: 'dagster-webserver' with pid 60
+2024-10-06 18:57:50,234 WARN exited: dagster-daemon (exit status 2; not expected)
+2024-10-06 18:57:51,239 INFO spawned: 'dagster-daemon' with pid 62
+2024-10-06 18:57:51,240 INFO success: dagster-webserver entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-10-06 18:57:52,245 INFO success: dagster-daemon entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-10-06 18:57:52,753 WARN exited: dagster-webserver (exit status 2; not expected)
+2024-10-06 18:57:53,241 INFO spawned: 'dagster-webserver' with pid 64
+2024-10-06 18:57:53,536 WARN exited: dagster-daemon (exit status 2; not expected)
+2024-10-06 18:57:54,540 INFO spawned: 'dagster-daemon' with pid 66
+2024-10-06 18:57:54,541 INFO success: dagster-webserver entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-10-06 18:57:55,254 WARN exited: dagster-webserver (exit status 2; not expected)
+2024-10-06 18:57:55,768 INFO success: dagster-daemon entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-10-06 18:57:55,770 INFO spawned: 'dagster-webserver' with pid 68
+2024-10-06 18:57:55,990 WARN exited: dagster-daemon (exit status 2; not expected)
+2024-10-06 18:57:56,998 INFO spawned: 'dagster-daemon' with pid 70
+2024-10-06 18:57:56,999 INFO success: dagster-webserver entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-10-06 18:57:57,724 WARN exited: dagster-webserver (exit status 2; not expected)
+2024-10-06 18:57:58,396 INFO success: dagster-daemon entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-10-06 18:57:58,398 INFO spawned: 'dagster-webserver' with pid 73
+2024-10-06 18:57:58,702 WARN exited: dagster-daemon (exit status 2; not expected)
+2024-10-06 18:57:59,707 INFO spawned: 'dagster-daemon' with pid 76
+2024-10-06 18:57:59,709 INFO success: dagster-webserver entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-10-06 18:58:00,711 INFO success: dagster-daemon entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-10-06 18:58:01,282 WARN exited: dagster-webserver (exit status 2; not expected)
+2024-10-06 18:58:01,683 INFO spawned: 'dagster-webserver' with pid 78
+2024-10-06 18:58:01,926 WARN exited: dagster-daemon (exit status 2; not expected)
+2024-10-06 18:58:02,933 INFO spawned: 'dagster-daemon' with pid 80
+2024-10-06 18:58:02,934 INFO success: dagster-webserver entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-10-06 18:58:03,417 WARN exited: dagster-webserver (exit status 2; not expected)
+2024-10-06 18:58:04,020 INFO success: dagster-daemon entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-10-06 18:58:04,021 INFO spawned: 'dagster-webserver' with pid 82
+2024-10-06 18:58:04,240 WARN exited: dagster-daemon (exit status 2; not expected)
+2024-10-06 18:58:05,244 INFO spawned: 'dagster-daemon' with pid 84
+2024-10-06 18:58:05,244 INFO success: dagster-webserver entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-10-06 18:58:05,683 WARN exited: dagster-webserver (exit status 2; not expected)
+2024-10-06 18:58:06,396 INFO success: dagster-daemon entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-10-06 18:58:06,398 INFO spawned: 'dagster-webserver' with pid 88
+2024-10-06 18:58:06,703 WARN exited: dagster-daemon (exit status 2; not expected)
+2024-10-06 18:58:07,707 INFO spawned: 'dagster-daemon' with pid 90
+2024-10-06 18:58:07,708 INFO success: dagster-webserver entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-10-06 18:58:09,092 INFO success: dagster-daemon entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-10-06 18:58:09,093 WARN exited: dagster-webserver (exit status 2; not expected)
+2024-10-06 18:58:09,461 INFO spawned: 'dagster-webserver' with pid 92
+2024-10-06 18:58:09,847 WARN exited: dagster-daemon (exit status 2; not expected)
+2024-10-06 18:58:10,852 INFO spawned: 'dagster-daemon' with pid 94
+2024-10-06 18:58:10,853 INFO success: dagster-webserver entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-10-06 18:58:11,599 WARN exited: dagster-webserver (exit status 2; not expected)
+2024-10-06 18:58:12,154 INFO success: dagster-daemon entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-10-06 18:58:12,156 INFO spawned: 'dagster-webserver' with pid 96
+2024-10-06 18:58:12,401 WARN exited: dagster-daemon (exit status 2; not expected)
+2024-10-06 18:58:13,406 INFO spawned: 'dagster-daemon' with pid 98
+2024-10-06 18:58:13,406 INFO success: dagster-webserver entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-10-06 18:58:14,125 WARN exited: dagster-webserver (exit status 2; not expected)
+2024-10-06 18:58:15,134 INFO success: dagster-daemon entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-10-06 18:58:15,156 INFO spawned: 'dagster-webserver' with pid 100
+2024-10-06 18:58:16,473 INFO success: dagster-webserver entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-10-06 18:58:16,474 WARN exited: dagster-daemon (exit status 2; not expected)
+2024-10-06 18:58:17,557 INFO spawned: 'dagster-daemon' with pid 102
+2024-10-06 18:58:18,574 INFO success: dagster-daemon entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-10-06 18:58:23,455 WARN exited: dagster-webserver (exit status 2; not expected)
+2024-10-06 18:58:23,460 WARN exited: dagster-daemon (exit status 2; not expected)
+2024-10-06 18:58:24,482 INFO spawned: 'dagster-daemon' with pid 104
+2024-10-06 18:58:24,487 INFO spawned: 'dagster-webserver' with pid 105
+2024-10-06 18:58:25,490 INFO success: dagster-daemon entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-10-06 18:58:25,490 INFO success: dagster-webserver entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-10-06 18:58:26,275 WARN exited: dagster-daemon (exit status 2; not expected)
+2024-10-06 18:58:26,524 INFO spawned: 'dagster-daemon' with pid 108
+2024-10-06 18:58:26,893 WARN exited: dagster-webserver (exit status 2; not expected)
+2024-10-06 18:58:27,899 INFO success: dagster-daemon entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-10-06 18:58:27,901 INFO spawned: 'dagster-webserver' with pid 110
+2024-10-06 18:58:28,813 WARN exited: dagster-daemon (exit status 2; not expected)
+2024-10-06 18:58:29,822 INFO spawned: 'dagster-daemon' with pid 112
+2024-10-06 18:58:29,823 INFO success: dagster-webserver entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-10-06 18:58:30,422 WARN exited: dagster-webserver (exit status 2; not expected)
+2024-10-06 18:58:31,318 INFO success: dagster-daemon entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-10-06 18:58:31,322 INFO spawned: 'dagster-webserver' with pid 114
+2024-10-06 18:58:31,589 WARN exited: dagster-daemon (exit status 2; not expected)
+2024-10-06 18:58:32,594 INFO spawned: 'dagster-daemon' with pid 116
+2024-10-06 18:58:32,595 INFO success: dagster-webserver entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-10-06 18:58:33,378 WARN exited: dagster-webserver (exit status 2; not expected)
+2024-10-06 18:58:34,042 INFO success: dagster-daemon entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-10-06 18:58:34,044 INFO spawned: 'dagster-webserver' with pid 118
+2024-10-06 18:58:34,303 WARN exited: dagster-daemon (exit status 2; not expected)
+2024-10-06 18:58:35,312 INFO spawned: 'dagster-daemon' with pid 120
+2024-10-06 18:58:35,312 INFO success: dagster-webserver entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-10-06 18:58:36,124 WARN exited: dagster-webserver (exit status 2; not expected)
+2024-10-06 18:58:36,773 INFO success: dagster-daemon entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-10-06 18:58:36,775 INFO spawned: 'dagster-webserver' with pid 122
+2024-10-06 18:58:37,013 WARN exited: dagster-daemon (exit status 2; not expected)
+2024-10-06 18:58:38,022 INFO spawned: 'dagster-daemon' with pid 124
+2024-10-06 18:58:38,022 INFO success: dagster-webserver entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-10-06 18:58:38,580 WARN exited: dagster-webserver (exit status 2; not expected)
+2024-10-06 18:58:39,584 INFO success: dagster-daemon entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-10-06 18:58:39,599 INFO spawned: 'dagster-webserver' with pid 126
+2024-10-06 18:58:41,246 INFO success: dagster-webserver entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-10-06 18:58:41,246 WARN exited: dagster-daemon (exit status 2; not expected)
+2024-10-06 18:58:41,705 INFO spawned: 'dagster-daemon' with pid 128
+2024-10-06 18:58:42,029 WARN exited: dagster-webserver (exit status 2; not expected)
+2024-10-06 18:58:42,889 INFO success: dagster-daemon entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-10-06 18:58:42,891 INFO spawned: 'dagster-webserver' with pid 130
+2024-10-06 18:58:43,126 WARN exited: dagster-daemon (exit status 2; not expected)
+2024-10-06 18:58:44,130 INFO spawned: 'dagster-daemon' with pid 132
+2024-10-06 18:58:44,131 INFO success: dagster-webserver entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-10-06 18:58:44,700 WARN exited: dagster-webserver (exit status 2; not expected)
+2024-10-06 18:58:45,404 INFO success: dagster-daemon entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-10-06 18:58:45,406 INFO spawned: 'dagster-webserver' with pid 135
+2024-10-06 18:58:45,659 WARN exited: dagster-daemon (exit status 2; not expected)
+2024-10-06 18:58:46,665 INFO spawned: 'dagster-daemon' with pid 137
+2024-10-06 18:58:46,665 INFO success: dagster-webserver entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-10-06 18:58:47,185 WARN exited: dagster-webserver (exit status 2; not expected)
+2024-10-06 18:58:47,866 INFO success: dagster-daemon entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-10-06 18:58:47,867 INFO spawned: 'dagster-webserver' with pid 139
+2024-10-06 18:58:48,109 WARN exited: dagster-daemon (exit status 2; not expected)
+2024-10-06 18:58:49,117 INFO spawned: 'dagster-daemon' with pid 141
+2024-10-06 18:58:49,117 INFO success: dagster-webserver entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-10-06 18:58:50,200 INFO success: dagster-daemon entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-10-06 18:58:50,205 WARN exited: dagster-webserver (exit status 2; not expected)
+2024-10-06 18:58:51,217 INFO spawned: 'dagster-webserver' with pid 143
+2024-10-06 18:58:51,647 WARN exited: dagster-daemon (exit status 2; not expected)
+2024-10-06 18:58:52,656 INFO spawned: 'dagster-daemon' with pid 145
+2024-10-06 18:58:52,657 INFO success: dagster-webserver entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-10-06 18:58:53,873 INFO success: dagster-daemon entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-10-06 18:58:53,873 WARN exited: dagster-webserver (exit status 2; not expected)
+2024-10-06 18:58:54,225 INFO spawned: 'dagster-webserver' with pid 147
+2024-10-06 18:58:54,458 WARN exited: dagster-daemon (exit status 2; not expected)
+2024-10-06 18:58:55,467 INFO spawned: 'dagster-daemon' with pid 149
+2024-10-06 18:58:55,467 INFO success: dagster-webserver entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-10-06 18:58:55,999 WARN exited: dagster-webserver (exit status 2; not expected)
+2024-10-06 18:58:56,533 INFO success: dagster-daemon entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-10-06 18:58:56,535 INFO spawned: 'dagster-webserver' with pid 151
+2024-10-06 18:58:56,749 WARN exited: dagster-daemon (exit status 2; not expected)
+2024-10-06 18:58:57,756 INFO spawned: 'dagster-daemon' with pid 153
+2024-10-06 18:58:57,757 INFO success: dagster-webserver entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-10-06 18:58:58,295 WARN exited: dagster-webserver (exit status 2; not expected)
+2024-10-06 18:58:59,049 INFO success: dagster-daemon entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-10-06 18:58:59,050 INFO spawned: 'dagster-webserver' with pid 155
+2024-10-06 18:58:59,308 WARN exited: dagster-daemon (exit status 2; not expected)
+2024-10-06 18:59:00,319 INFO spawned: 'dagster-daemon' with pid 157
+2024-10-06 18:59:00,321 INFO success: dagster-webserver entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-10-06 18:59:01,325 INFO success: dagster-daemon entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-10-06 18:59:02,737 WARN exited: dagster-webserver (exit status 2; not expected)
+2024-10-06 18:59:03,784 INFO spawned: 'dagster-webserver' with pid 159
+2024-10-06 18:59:05,314 INFO success: dagster-webserver entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-10-06 18:59:06,322 WARN exited: dagster-daemon (exit status 2; not expected)
+2024-10-06 18:59:07,339 INFO spawned: 'dagster-daemon' with pid 161
+2024-10-06 18:59:08,344 INFO success: dagster-daemon entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-10-06 18:59:09,609 WARN exited: dagster-webserver (exit status 2; not expected)
+2024-10-06 18:59:10,422 INFO spawned: 'dagster-webserver' with pid 163
+2024-10-06 18:59:10,884 WARN exited: dagster-daemon (exit status 2; not expected)
+2024-10-06 18:59:11,893 INFO spawned: 'dagster-daemon' with pid 165
+2024-10-06 18:59:11,895 INFO success: dagster-webserver entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-10-06 18:59:12,902 INFO success: dagster-daemon entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-10-06 18:59:16,454 WARN exited: dagster-webserver (exit status 2; not expected)
+2024-10-06 18:59:16,457 WARN exited: dagster-daemon (exit status 2; not expected)
+2024-10-06 18:59:17,466 INFO spawned: 'dagster-daemon' with pid 167
+2024-10-06 18:59:17,470 INFO spawned: 'dagster-webserver' with pid 168
+2024-10-06 18:59:18,479 INFO success: dagster-daemon entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-10-06 18:59:18,485 INFO success: dagster-webserver entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-10-06 18:59:21,288 WARN exited: dagster-daemon (exit status 2; not expected)
+2024-10-06 18:59:21,830 INFO spawned: 'dagster-daemon' with pid 171
+2024-10-06 18:59:21,835 WARN exited: dagster-webserver (exit status 2; not expected)
+2024-10-06 18:59:22,845 INFO success: dagster-daemon entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-10-06 18:59:22,857 INFO spawned: 'dagster-webserver' with pid 172
+2024-10-06 18:59:23,882 INFO success: dagster-webserver entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-10-06 18:59:25,465 WARN exited: dagster-daemon (exit status 2; not expected)
+2024-10-06 18:59:25,945 INFO spawned: 'dagster-daemon' with pid 175
+2024-10-06 18:59:26,274 WARN exited: dagster-webserver (exit status 2; not expected)
+2024-10-06 18:59:27,155 INFO success: dagster-daemon entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-10-06 18:59:27,157 INFO spawned: 'dagster-webserver' with pid 177
+2024-10-06 18:59:27,399 WARN exited: dagster-daemon (exit status 2; not expected)
+2024-10-06 18:59:28,403 INFO spawned: 'dagster-daemon' with pid 179
+2024-10-06 18:59:28,404 INFO success: dagster-webserver entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-10-06 18:59:29,056 WARN exited: dagster-webserver (exit status 2; not expected)
+2024-10-06 18:59:29,788 INFO success: dagster-daemon entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-10-06 18:59:29,790 INFO spawned: 'dagster-webserver' with pid 181
+2024-10-06 18:59:30,024 WARN exited: dagster-daemon (exit status 2; not expected)
+2024-10-06 18:59:31,033 INFO spawned: 'dagster-daemon' with pid 183
+2024-10-06 18:59:31,033 INFO success: dagster-webserver entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-10-06 18:59:31,529 WARN exited: dagster-webserver (exit status 2; not expected)
+2024-10-06 18:59:32,156 INFO success: dagster-daemon entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-10-06 18:59:32,157 INFO spawned: 'dagster-webserver' with pid 185
+2024-10-06 18:59:32,394 WARN exited: dagster-daemon (exit status 2; not expected)
+2024-10-06 18:59:33,404 INFO spawned: 'dagster-daemon' with pid 187
+2024-10-06 18:59:33,405 INFO success: dagster-webserver entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-10-06 18:59:34,410 INFO success: dagster-daemon entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-10-06 18:59:35,155 WARN exited: dagster-webserver (exit status 2; not expected)
+2024-10-06 18:59:35,475 INFO spawned: 'dagster-webserver' with pid 189
+2024-10-06 18:59:35,771 WARN exited: dagster-daemon (exit status 2; not expected)
+2024-10-06 18:59:36,775 INFO spawned: 'dagster-daemon' with pid 191
+2024-10-06 18:59:36,776 INFO success: dagster-webserver entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-10-06 18:59:38,613 INFO success: dagster-daemon entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-10-06 18:59:39,817 WARN exited: dagster-webserver (exit status 2; not expected)
+2024-10-06 18:59:39,851 INFO spawned: 'dagster-webserver' with pid 193
+2024-10-06 18:59:40,251 WARN exited: dagster-daemon (exit status 2; not expected)
+2024-10-06 18:59:41,258 INFO spawned: 'dagster-daemon' with pid 195
+2024-10-06 18:59:41,259 INFO success: dagster-webserver entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-10-06 18:59:42,565 INFO success: dagster-daemon entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-10-06 18:59:44,331 WARN exited: dagster-webserver (exit status 2; not expected)
+2024-10-06 18:59:44,572 INFO spawned: 'dagster-webserver' with pid 198
+2024-10-06 18:59:44,573 WARN exited: dagster-daemon (exit status 2; not expected)
+2024-10-06 18:59:45,580 INFO spawned: 'dagster-daemon' with pid 200
+2024-10-06 18:59:45,581 INFO success: dagster-webserver entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-10-06 18:59:46,585 INFO success: dagster-daemon entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-10-06 18:59:47,756 WARN exited: dagster-webserver (exit status 2; not expected)
+2024-10-06 18:59:48,270 INFO spawned: 'dagster-webserver' with pid 203
+2024-10-06 18:59:48,635 WARN exited: dagster-daemon (exit status 2; not expected)
+2024-10-06 18:59:49,643 INFO spawned: 'dagster-daemon' with pid 206
+2024-10-06 18:59:49,644 INFO success: dagster-webserver entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-10-06 18:59:50,939 INFO success: dagster-daemon entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-10-06 18:59:50,940 WARN exited: dagster-webserver (exit status 2; not expected)
+2024-10-06 18:59:51,139 INFO spawned: 'dagster-webserver' with pid 208
+2024-10-06 18:59:51,418 WARN exited: dagster-daemon (exit status 2; not expected)
+2024-10-06 18:59:52,426 INFO spawned: 'dagster-daemon' with pid 210
+2024-10-06 18:59:52,427 INFO success: dagster-webserver entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-10-06 18:59:53,042 WARN exited: dagster-webserver (exit status 2; not expected)
+2024-10-06 18:59:53,682 INFO success: dagster-daemon entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-10-06 18:59:53,684 INFO spawned: 'dagster-webserver' with pid 212
+2024-10-06 18:59:53,923 WARN exited: dagster-daemon (exit status 2; not expected)
+2024-10-06 18:59:54,928 INFO spawned: 'dagster-daemon' with pid 216
+2024-10-06 18:59:54,929 INFO success: dagster-webserver entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-10-06 18:59:56,200 INFO success: dagster-daemon entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-10-06 18:59:56,200 WARN exited: dagster-webserver (exit status 2; not expected)
+2024-10-06 18:59:56,675 INFO spawned: 'dagster-webserver' with pid 218
+2024-10-06 18:59:56,907 WARN exited: dagster-daemon (exit status 2; not expected)
+2024-10-06 18:59:57,912 INFO spawned: 'dagster-daemon' with pid 220
+2024-10-06 18:59:57,913 INFO success: dagster-webserver entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-10-06 18:59:58,450 WARN exited: dagster-webserver (exit status 2; not expected)
+2024-10-06 18:59:59,080 INFO success: dagster-daemon entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-10-06 18:59:59,081 INFO spawned: 'dagster-webserver' with pid 223
+2024-10-06 18:59:59,314 WARN exited: dagster-daemon (exit status 2; not expected)
+2024-10-06 19:00:00,319 INFO spawned: 'dagster-daemon' with pid 225
+2024-10-06 19:00:00,320 INFO success: dagster-webserver entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-10-06 19:00:00,866 WARN exited: dagster-webserver (exit status 2; not expected)
+2024-10-06 19:00:01,541 INFO success: dagster-daemon entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-10-06 19:00:01,543 INFO spawned: 'dagster-webserver' with pid 227
+2024-10-06 19:00:01,795 WARN exited: dagster-daemon (exit status 2; not expected)
+2024-10-06 19:00:02,800 INFO spawned: 'dagster-daemon' with pid 230
+2024-10-06 19:00:02,801 INFO success: dagster-webserver entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-10-06 19:00:04,390 INFO success: dagster-daemon entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-10-06 19:00:04,391 WARN exited: dagster-webserver (exit status 2; not expected)
+2024-10-06 19:00:05,239 INFO spawned: 'dagster-webserver' with pid 233
+2024-10-06 19:00:05,519 WARN exited: dagster-daemon (exit status 2; not expected)
+2024-10-06 19:00:06,525 INFO spawned: 'dagster-daemon' with pid 235
+2024-10-06 19:00:06,526 INFO success: dagster-webserver entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-10-06 19:00:07,755 INFO success: dagster-daemon entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-10-06 19:00:07,756 WARN exited: dagster-webserver (exit status 2; not expected)
+2024-10-06 19:00:08,223 INFO spawned: 'dagster-webserver' with pid 237
+2024-10-06 19:00:08,497 WARN exited: dagster-daemon (exit status 2; not expected)
+2024-10-06 19:00:09,501 INFO spawned: 'dagster-daemon' with pid 239
+2024-10-06 19:00:09,502 INFO success: dagster-webserver entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-10-06 19:00:10,059 WARN exited: dagster-webserver (exit status 2; not expected)
+2024-10-06 19:00:10,649 INFO success: dagster-daemon entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-10-06 19:00:10,650 INFO spawned: 'dagster-webserver' with pid 241
+2024-10-06 19:00:10,879 WARN exited: dagster-daemon (exit status 2; not expected)
+2024-10-06 19:00:11,886 INFO spawned: 'dagster-daemon' with pid 243
+2024-10-06 19:00:11,887 INFO success: dagster-webserver entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-10-06 19:00:12,453 WARN exited: dagster-webserver (exit status 2; not expected)
+2024-10-06 19:00:13,246 INFO success: dagster-daemon entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-10-06 19:00:13,248 INFO spawned: 'dagster-webserver' with pid 245
+2024-10-06 19:00:13,508 WARN exited: dagster-daemon (exit status 2; not expected)
+2024-10-06 19:00:14,514 INFO spawned: 'dagster-daemon' with pid 248
+2024-10-06 19:00:14,515 INFO success: dagster-webserver entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-10-06 19:00:15,457 WARN exited: dagster-webserver (exit status 2; not expected)
+2024-10-06 19:00:15,916 INFO success: dagster-daemon entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-10-06 19:00:15,918 INFO spawned: 'dagster-webserver' with pid 250
+2024-10-06 19:00:16,175 WARN exited: dagster-daemon (exit status 2; not expected)
+2024-10-06 19:00:17,183 INFO spawned: 'dagster-daemon' with pid 252
+2024-10-06 19:00:17,184 INFO success: dagster-webserver entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-10-06 19:00:17,772 WARN exited: dagster-webserver (exit status 2; not expected)
+2024-10-06 19:00:18,516 INFO success: dagster-daemon entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-10-06 19:00:18,518 INFO spawned: 'dagster-webserver' with pid 254
+2024-10-06 19:00:18,789 WARN exited: dagster-daemon (exit status 2; not expected)
+2024-10-06 19:00:19,794 INFO spawned: 'dagster-daemon' with pid 257
+2024-10-06 19:00:19,795 INFO success: dagster-webserver entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-10-06 19:00:20,598 WARN exited: dagster-webserver (exit status 2; not expected)
+2024-10-06 19:00:21,415 INFO success: dagster-daemon entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-10-06 19:00:21,418 INFO spawned: 'dagster-webserver' with pid 259
+2024-10-06 19:00:21,674 WARN exited: dagster-daemon (exit status 2; not expected)
+2024-10-06 19:00:22,682 INFO spawned: 'dagster-daemon' with pid 262
+2024-10-06 19:00:22,683 INFO success: dagster-webserver entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-10-06 19:00:23,575 WARN exited: dagster-webserver (exit status 2; not expected)
+2024-10-06 19:00:24,065 INFO success: dagster-daemon entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-10-06 19:00:24,066 INFO spawned: 'dagster-webserver' with pid 264
+2024-10-06 19:00:24,310 WARN exited: dagster-daemon (exit status 2; not expected)
+2024-10-06 19:00:25,318 INFO spawned: 'dagster-daemon' with pid 266
+2024-10-06 19:00:25,319 INFO success: dagster-webserver entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-10-06 19:00:25,793 WARN exited: dagster-webserver (exit status 2; not expected)
+2024-10-06 19:00:26,392 INFO success: dagster-daemon entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-10-06 19:00:26,394 INFO spawned: 'dagster-webserver' with pid 268
+2024-10-06 19:00:26,617 WARN exited: dagster-daemon (exit status 2; not expected)
+2024-10-06 19:00:27,624 INFO spawned: 'dagster-daemon' with pid 270
+2024-10-06 19:00:27,626 INFO success: dagster-webserver entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-10-06 19:00:28,067 WARN exited: dagster-webserver (exit status 2; not expected)
+2024-10-06 19:00:28,745 INFO success: dagster-daemon entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-10-06 19:00:28,746 INFO spawned: 'dagster-webserver' with pid 272
+2024-10-06 19:00:28,972 WARN exited: dagster-daemon (exit status 2; not expected)
+2024-10-06 19:00:29,983 INFO spawned: 'dagster-daemon' with pid 274
+2024-10-06 19:00:29,984 INFO success: dagster-webserver entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-10-06 19:00:31,093 INFO success: dagster-daemon entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-10-06 19:00:31,093 WARN exited: dagster-webserver (exit status 2; not expected)
+2024-10-06 19:00:32,045 INFO spawned: 'dagster-webserver' with pid 276
+2024-10-06 19:00:32,421 WARN exited: dagster-daemon (exit status 2; not expected)
+2024-10-06 19:00:33,426 INFO spawned: 'dagster-daemon' with pid 278
+2024-10-06 19:00:33,427 INFO success: dagster-webserver entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-10-06 19:00:34,508 INFO success: dagster-daemon entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-10-06 19:00:34,508 WARN exited: dagster-webserver (exit status 2; not expected)
+2024-10-06 19:00:34,931 INFO spawned: 'dagster-webserver' with pid 280
+2024-10-06 19:00:35,171 WARN exited: dagster-daemon (exit status 2; not expected)
+2024-10-06 19:00:36,177 INFO spawned: 'dagster-daemon' with pid 282
+2024-10-06 19:00:36,178 INFO success: dagster-webserver entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-10-06 19:00:36,828 WARN exited: dagster-webserver (exit status 2; not expected)
+2024-10-06 19:00:37,526 INFO success: dagster-daemon entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-10-06 19:00:37,527 INFO spawned: 'dagster-webserver' with pid 284
+2024-10-06 19:00:37,763 WARN exited: dagster-daemon (exit status 2; not expected)
+2024-10-06 19:00:38,771 INFO spawned: 'dagster-daemon' with pid 286
+2024-10-06 19:00:38,772 INFO success: dagster-webserver entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-10-06 19:00:39,271 WARN exited: dagster-webserver (exit status 2; not expected)
+2024-10-06 19:00:39,912 INFO success: dagster-daemon entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-10-06 19:00:39,914 INFO spawned: 'dagster-webserver' with pid 288
+2024-10-06 19:00:40,178 WARN exited: dagster-daemon (exit status 2; not expected)
+2024-10-06 19:00:41,184 INFO spawned: 'dagster-daemon' with pid 290
+2024-10-06 19:00:41,184 INFO success: dagster-webserver entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-10-06 19:00:42,015 WARN exited: dagster-webserver (exit status 2; not expected)
+2024-10-06 19:00:42,647 INFO success: dagster-daemon entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-10-06 19:00:42,650 INFO spawned: 'dagster-webserver' with pid 292
+2024-10-06 19:00:42,898 WARN exited: dagster-daemon (exit status 2; not expected)
+2024-10-06 19:00:43,902 INFO spawned: 'dagster-daemon' with pid 294
+2024-10-06 19:00:43,903 INFO success: dagster-webserver entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-10-06 19:00:44,413 WARN exited: dagster-webserver (exit status 2; not expected)
+2024-10-06 19:00:44,989 INFO success: dagster-daemon entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-10-06 19:00:44,991 INFO spawned: 'dagster-webserver' with pid 296
+2024-10-06 19:00:45,210 WARN exited: dagster-daemon (exit status 2; not expected)
+2024-10-06 19:00:46,228 INFO spawned: 'dagster-daemon' with pid 298
+2024-10-06 19:00:46,230 INFO success: dagster-webserver entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-10-06 19:00:47,131 WARN exited: dagster-webserver (exit status 2; not expected)
+2024-10-06 19:00:47,889 INFO success: dagster-daemon entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-10-06 19:00:47,890 INFO spawned: 'dagster-webserver' with pid 300
+2024-10-06 19:00:48,140 WARN exited: dagster-daemon (exit status 2; not expected)
+2024-10-06 19:00:49,148 INFO spawned: 'dagster-daemon' with pid 302
+2024-10-06 19:00:49,148 INFO success: dagster-webserver entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-10-06 19:00:49,848 WARN exited: dagster-webserver (exit status 2; not expected)
+2024-10-06 19:00:50,492 INFO success: dagster-daemon entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-10-06 19:00:50,494 INFO spawned: 'dagster-webserver' with pid 304
+2024-10-06 19:00:50,779 WARN exited: dagster-daemon (exit status 2; not expected)
+2024-10-06 19:00:51,783 INFO spawned: 'dagster-daemon' with pid 306
+2024-10-06 19:00:51,784 INFO success: dagster-webserver entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-10-06 19:00:52,519 WARN exited: dagster-webserver (exit status 2; not expected)
+2024-10-06 19:00:53,223 INFO success: dagster-daemon entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-10-06 19:00:53,225 INFO spawned: 'dagster-webserver' with pid 308
+2024-10-06 19:00:53,462 WARN exited: dagster-daemon (exit status 2; not expected)
+2024-10-06 19:00:54,509 INFO spawned: 'dagster-daemon' with pid 310
+2024-10-06 19:00:54,522 INFO success: dagster-webserver entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-10-06 19:00:55,527 INFO success: dagster-daemon entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-10-06 19:00:55,991 WARN exited: dagster-webserver (exit status 2; not expected)
+2024-10-06 19:00:56,494 INFO spawned: 'dagster-webserver' with pid 312
+2024-10-06 19:00:56,740 WARN exited: dagster-daemon (exit status 2; not expected)
+2024-10-06 19:00:57,746 INFO spawned: 'dagster-daemon' with pid 314
+2024-10-06 19:00:57,747 INFO success: dagster-webserver entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-10-06 19:00:58,303 WARN exited: dagster-webserver (exit status 2; not expected)
+2024-10-06 19:00:58,971 INFO success: dagster-daemon entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-10-06 19:00:58,973 INFO spawned: 'dagster-webserver' with pid 316
+2024-10-06 19:00:59,208 WARN exited: dagster-daemon (exit status 2; not expected)
+2024-10-06 19:01:00,217 INFO spawned: 'dagster-daemon' with pid 318
+2024-10-06 19:01:00,218 INFO success: dagster-webserver entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-10-06 19:01:00,707 WARN exited: dagster-webserver (exit status 2; not expected)
+2024-10-06 19:01:01,310 INFO success: dagster-daemon entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-10-06 19:01:01,313 INFO spawned: 'dagster-webserver' with pid 320
+2024-10-06 19:01:01,532 WARN exited: dagster-daemon (exit status 2; not expected)
+2024-10-06 19:01:02,540 INFO spawned: 'dagster-daemon' with pid 322
+2024-10-06 19:01:02,541 INFO success: dagster-webserver entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-10-06 19:01:03,023 WARN exited: dagster-webserver (exit status 2; not expected)
+2024-10-06 19:01:03,626 INFO success: dagster-daemon entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-10-06 19:01:03,629 INFO spawned: 'dagster-webserver' with pid 324
+2024-10-06 19:01:03,848 WARN exited: dagster-daemon (exit status 2; not expected)
+2024-10-06 19:01:04,855 INFO spawned: 'dagster-daemon' with pid 326
+2024-10-06 19:01:04,856 INFO success: dagster-webserver entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-10-06 19:01:05,308 WARN exited: dagster-webserver (exit status 2; not expected)
+2024-10-06 19:01:05,905 INFO success: dagster-daemon entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-10-06 19:01:05,907 INFO spawned: 'dagster-webserver' with pid 328
+2024-10-06 19:01:06,125 WARN exited: dagster-daemon (exit status 2; not expected)
+2024-10-06 19:01:07,129 INFO spawned: 'dagster-daemon' with pid 330
+2024-10-06 19:01:07,130 INFO success: dagster-webserver entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-10-06 19:01:08,102 WARN exited: dagster-webserver (exit status 2; not expected)
+2024-10-06 19:01:09,109 INFO success: dagster-daemon entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-10-06 19:01:09,115 INFO spawned: 'dagster-webserver' with pid 332
+2024-10-06 19:01:09,896 WARN exited: dagster-daemon (exit status 2; not expected)
+2024-10-06 19:01:10,903 INFO spawned: 'dagster-daemon' with pid 334
+2024-10-06 19:01:10,904 INFO success: dagster-webserver entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-10-06 19:01:11,909 INFO success: dagster-daemon entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-10-06 19:01:12,631 WARN exited: dagster-webserver (exit status 2; not expected)
+2024-10-06 19:01:13,136 INFO spawned: 'dagster-webserver' with pid 336
+2024-10-06 19:01:13,519 WARN exited: dagster-daemon (exit status 2; not expected)
+2024-10-06 19:01:14,526 INFO spawned: 'dagster-daemon' with pid 338
+2024-10-06 19:01:14,527 INFO success: dagster-webserver entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-10-06 19:01:15,847 INFO success: dagster-daemon entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-10-06 19:01:15,848 WARN exited: dagster-webserver (exit status 2; not expected)
+2024-10-06 19:01:16,143 INFO spawned: 'dagster-webserver' with pid 340
+2024-10-06 19:01:16,611 WARN exited: dagster-daemon (exit status 2; not expected)
+2024-10-06 19:01:17,620 INFO spawned: 'dagster-daemon' with pid 342
+2024-10-06 19:01:17,622 INFO success: dagster-webserver entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-10-06 19:01:18,630 INFO success: dagster-daemon entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-10-06 19:01:20,020 WARN exited: dagster-webserver (exit status 2; not expected)
+2024-10-06 19:01:20,228 INFO spawned: 'dagster-webserver' with pid 344
+2024-10-06 19:01:20,229 WARN exited: dagster-daemon (exit status 2; not expected)
+2024-10-06 19:01:21,237 INFO spawned: 'dagster-daemon' with pid 346
+2024-10-06 19:01:21,238 INFO success: dagster-webserver entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-10-06 19:01:22,279 INFO success: dagster-daemon entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-10-06 19:01:22,280 WARN exited: dagster-webserver (exit status 2; not expected)
+2024-10-06 19:01:22,575 INFO spawned: 'dagster-webserver' with pid 348
+2024-10-06 19:01:22,844 WARN exited: dagster-daemon (exit status 2; not expected)
+2024-10-06 19:01:23,847 INFO spawned: 'dagster-daemon' with pid 350
+2024-10-06 19:01:23,848 INFO success: dagster-webserver entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-10-06 19:01:23,848 WARN received SIGTERM indicating exit request
+2024-10-06 19:01:23,849 INFO waiting for dagster-daemon, dagster-webserver to die
+2024-10-06 19:01:23,857 WARN stopped: dagster-webserver (terminated by SIGTERM)
+2024-10-06 19:01:23,858 WARN stopped: dagster-daemon (terminated by SIGTERM)
